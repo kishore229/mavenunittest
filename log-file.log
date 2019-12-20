@@ -1,0 +1,59 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.github.jitpack:maven-simple:jar:0.2-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-source-plugin is missing. @ line 35, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-javadoc-plugin is missing. @ line 48, column 15
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] ------------------< com.github.jitpack:maven-simple >-------------------
+[INFO] Building Simple Maven example 0.2-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ maven-simple ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ maven-simple ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory C:\Users\kumar\Desktop\mavenUnitTest-master\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ maven-simple ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[INFO] Compiling 1 source file to C:\Users\kumar\Desktop\mavenUnitTest-master\target\classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ maven-simple ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory C:\Users\kumar\Desktop\mavenUnitTest-master\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:testCompile (default-testCompile) @ maven-simple ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[INFO] Compiling 1 source file to C:\Users\kumar\Desktop\mavenUnitTest-master\target\test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ maven-simple ---
+[INFO] Surefire report directory: C:\Users\kumar\Desktop\mavenUnitTest-master\target\surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+
+Results :
+
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  10.264 s
+[INFO] Finished at: 2019-12-16T16:15:30+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.12.4:test (default-test) on project maven-simple: Execution default-test of goal org.apache.maven.plugins:maven-surefire-plugin:2.12.4:test failed: The forked VM terminated without saying properly goodbye. VM crash or System.exit called ? -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/PluginExecutionException
